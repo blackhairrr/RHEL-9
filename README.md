@@ -4,7 +4,9 @@ System Disk expansion
 ![image](https://github.com/blackhairrr/RHEL-9/assets/37354986/2d89aa6d-127b-4659-80ce-9d23eb31343d)
 
 1. Verify and check the free space for System disk
+   
    #parted /dev/vda u s p free
+   
     Model: Virtio Block Device (virtblk)
     Disk /dev/vda: 419430400s
     Sector size (logical/physical): 512B/512B
