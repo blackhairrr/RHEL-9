@@ -7,15 +7,6 @@ System Disk expansion
    
    #parted /dev/vda u s p free
    
-    Model: Virtio Block Device (virtblk)
-    Disk /dev/vda: 419430400s
-    Sector size (logical/physical): 512B/512B
-    Partition Table: msdos
-    Disk Flags:
-    
-    Number  Start       End         Size        Type     File system  Flags
-            2s          2047s       2046s                Free Space
-     1      2048s       2099199s    2097152s    primary  xfs          boot
-     2      2099200s    209715166s  207615967s  primary               lvm
-            209715167s  419430399s  209715233s           Free Space
+   ![image](https://github.com/blackhairrr/RHEL-9/assets/37354986/0006a77f-0e9d-406c-b16e-aae3838f49e0)
+
     
